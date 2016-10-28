@@ -1,4 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100');
+
 .header {
     background-image: url(../img/woman-typing-writing-windows.jpg);
     height: 561px;
 }
+
+.header__text {
+    padding: 80px;
+    text-align: center;
+}
+
+.header__LEADGEN {
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 60px;
+    height: 140px;
+    text-shadow: black 1px 1px 5px;
+    margin-bottom: 15px;
+}
+
+
