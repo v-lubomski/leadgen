@@ -1,4 +1,7 @@
 .header__defolt-h2--white {
+    position: relative;
+    margin: 0 auto;
     color: white;
-    font-size: 40px;
+    font-size: 24px;
+    width: 635px;
 }
