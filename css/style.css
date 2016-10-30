@@ -6,10 +6,12 @@
 @import url(block6.css);
 @import url(defolt-h2.css);
 
-
+body {
+    margin: 0;
+}
 
 /*
-.advantages-of-leadgen {
+.block2 {
     background-color: #ffffff;
     height: 637px;
 }
