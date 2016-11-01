@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic');
+
 .header__defolt-h2--white {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -8px;
     color: white;
-    font-size: 40px;
+    font-size: 23px;
+    width: 581px;
+    font-family: 'PT Sans', sans-serif;
 }
