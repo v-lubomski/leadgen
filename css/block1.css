@@ -10,7 +10,7 @@ h1 {
 
 .header {
     background-image: url(../img/block1-background.jpg);
-    height: 561px;
+    height: 588px;
     background-size: cover;
     position: relative;
     overflow: hidden;
@@ -31,6 +31,28 @@ h1 {
     text-shadow: -1px 2px 4px rgba(0,0,0,0.5),
         1px 0px 4px rgba(0,0,0,0.5);
     width: 500px;
+}
+
+.block1__trapezoid-left {
+    position: absolute;
+	border-left: 0px solid transparent;
+	height: 0;
+    bottom: 0;
+    width: 47.3%;
+    border-right: 36px solid transparent;
+    border-bottom: 31px solid white;
+}
+
+.block1__trapezoid-right {
+    position: absolute;
+	border-right: 0px solid transparent;
+	height: 0;
+    margin-left: 50%;
+    right: 0;
+    bottom: 0;
+    width: 47.3%;
+	border-left: 36px solid transparent;
+    border-bottom: 31px solid white;
 }
 
 

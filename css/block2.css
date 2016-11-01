@@ -2,13 +2,9 @@
 
 .block2 {
     background-color: #ffffff;
-    height: 637px;
+    height: 606px;
     display: flex;
     justify-content: center;
-}
-.block2-triangle-img {
-    position: absolute;
-    
 }
 
 .block2-items {
@@ -16,7 +12,8 @@
     align-items: center;
     height: auto;
     justify-content: space-around;
-    width: 900px;
+    width: 77%;
+    margin-top: -30px;
 }
 
 .block2-item__txt {
