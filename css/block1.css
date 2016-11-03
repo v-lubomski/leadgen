@@ -33,7 +33,7 @@ h1 {
     width: 500px;
 }
 
-.block1__trapezoid-left {
+.header__trapezoid-left {
     position: absolute;
 	border-left: 0px solid transparent;
 	height: 0;
@@ -43,7 +43,7 @@ h1 {
     border-bottom: 31px solid white;
 }
 
-.block1__trapezoid-right {
+.header__trapezoid-right {
     position: absolute;
 	border-right: 0px solid transparent;
 	height: 0;
