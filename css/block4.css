@@ -9,32 +9,34 @@
 
 .block4-elem1 {
     position: absolute;
-    margin-top: 10.4%;
-    margin-left: 19.8%;
+    margin-top: 10.5%;
+    margin-left: 19.7%;
     width: 70%;
 }
-.block4-elem1__img {
+
+.block4-elem1__img1 {
     box-shadow: 3px 9px 20px rgba(93,93,93,0.1),
          -3px -3px 20px rgba(93,93,93,0.1);
 }
-.block4-elem1-item {
-    width: 500px;
-    display: inline-block;
+
+.block4-elem1__img2 {
     position: absolute;
-    margin: 30px 0px 0px 37px;
-    height: 110px;
+    margin-top: 29px;
+    margin-left: 38px;
 }
 
-.block4-elem1-item__txt1 {
+.block4-elem1__txt1 {
     position: absolute;
-    margin-left: 81px;
-    margin-top: -61px;
+    margin-left: 481px;
+    margin-top: -377px;
+    width: 320px;
     
 }
-.block4-elem1-item__txt2 {
+.block4-elem1__txt2 {
     position: absolute;
-    margin-left: 81px;
-    margin-top: 26px
+    margin-left: 481px;
+    margin-top: -290px;
+    width: 180px;
 }
 
 .block4-elem2 {
