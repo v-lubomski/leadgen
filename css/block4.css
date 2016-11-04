@@ -1,18 +1,111 @@
+@import url(http://allfont.ru/allfont.css?fonts=pt-sans);
+
 .block4 {
     background-color: #f0f0f0;
     height: 974px;
     position: relative;
+    background: linear-gradient(to bottom, #ffffff, #ededed);
 }
 
+.block4-elem1 {
+    position: absolute;
+    margin-top: 10.4%;
+    margin-left: 19.8%;
+    width: 70%;
+}
+.block4-elem1__img {
+    box-shadow: 3px 9px 20px rgba(93,93,93,0.1),
+         -3px -3px 20px rgba(93,93,93,0.1);
+}
+.block4-elem1-item {
+    width: 500px;
+    display: inline-block;
+    position: absolute;
+    margin: 30px 0px 0px 37px;
+    height: 110px;
+}
+
+.block4-elem1-item__txt1 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -61px;
+    
+}
+.block4-elem1-item__txt2 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: 26px
+}
+
+.block4-elem2 {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 19.8%;
+    width: 70%;
+}
+
+.block4-elem2-item1 {
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+    margin: 50px 0px 0px 0px;
+    height: 120px;
+}
+
+.block4-elem2-item1__txt1 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -52px;
+}
+
+.block4-elem2-item1__txt2 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -23px
+}
+
+.block4-elem2-item2 {
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    margin: 50px 0px 0px 400px;
+    height: 150px;
+}
+
+.block4-elem2-item2__txt1 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: -53px;
+}
+
+.block4-elem2-item2__txt2 {
+    position: absolute;
+    margin-left: 81px;
+    margin-top: 32px
+}
+
+.block4-txtbig {
+    font-size: 35px;
+    font-family: 'PT Sans', arial;
+    color: #37474F;
+    line-height: 1.2;
+}
+
+.block4-txtsmall {
+    font-size: 35px;
+    font-family: 'PT Sans', arial;
+    color: #37474F;
+    font-size: 20px;
+}
 
 .block4__trapezoid-left {
 	position: absolute;
 	border-left: 0px solid transparent;
 	height: 0;
     bottom: 0;
-    width: 47.3%;
-    border-right: 36px solid transparent;
-    border-bottom: 31px solid white;
+    width: 46.6%;
+    border-right: 43px solid transparent;
+    border-bottom: 43px solid white;
 }
 
 .block4__trapezoid-right {
@@ -22,7 +115,7 @@
     margin-left: 50%;
     right: 0;
     bottom: 0;
-    width: 47.3%;
-	border-left: 36px solid transparent;
-    border-bottom: 31px solid white;
+    width: 46.6%;
+	border-left: 43px solid transparent;
+    border-bottom: 43px solid white;
 }
