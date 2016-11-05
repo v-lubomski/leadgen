@@ -32,9 +32,10 @@
 }
 
 .block5__img--animated {
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
 }
 
 .block5__img--animated:hover {
-    filter: grayscale(0%)
+    filter: grayscale(0%);
 }
