@@ -1,5 +1,9 @@
-@import url(http://allfont.ru/allfont.css?fonts=pt-sans-bold);
-@import url(http://allfont.ru/allfont.css?fonts=pt-sans);
+
+@font-face {
+	    font-family: 'pt sans bold';
+	    src: url(../fonts/pt-sans-bold.ttf);
+     font-weight: 600;
+  }
 
 .block3 {
     background-color: #FFD54F;
@@ -41,7 +45,7 @@
 }
 
 .block3-item__caption {
-    font-family: 'PT Sans Bold', arial;
+    font-family: 'pt sans bold';
     color: #37474F;
     font-size: 23px;
     text-align: center;

@@ -1,4 +1,8 @@
-@import url(http://allfont.ru/allfont.css?fonts=pt-sans);
+@font-face {
+	    font-family: 'pt sans bold';
+	    src: url(../fonts/pt-sans-bold.ttf);
+     font-weight: 600;
+  }
 
 .block5 {
     background-color: #ffffff;
@@ -7,11 +11,11 @@
 
 .block5__h2 {
     font-size: 23px;
-    width: 581px;
-    font-family: 'PT Sans', sans-serif;
+    width: 100px;
+    font-family: 'pt sans bold';
     color: #37474F;
     position: relative;
-    width: 450px;
+    width: 510px;
     margin: 0 auto;
     top: 75px;
 }

@@ -1,4 +1,7 @@
-@import url(http://allfont.ru/allfont.css?fonts=pt-sans);
+@font-face {
+	    font-family: 'pt sans';
+	    src: url(../fonts/pt-sans.ttf);
+  }
 
 .block2 {
     background-color: #ffffff;
