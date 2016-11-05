@@ -4,11 +4,13 @@
      font-weight: 600;
   }
 
+@import url(http://allfont.ru/allfont.css?fonts=pt-sans);
+
 h1 {
     margin: 0;
 }
 
-.header {
+.block1 {
     background-image: url(../img/block1-background.jpg);
     height: 588px;
     background-size: cover;
@@ -16,13 +18,23 @@ h1 {
     overflow: hidden;
 }
 
-.header__text {
+.block1__text {
     position: relative;
     width: 100%;
     margin-top: 150px; 
 }
 
-.header__LEADGEN {
+.block1__h2 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -8px;
+    color: white;
+    font-size: 23px;
+    width: 581px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.block1__LEADGEN {
     position: relative;
     margin: 0 auto;
     color: white;
@@ -33,7 +45,7 @@ h1 {
     width: 500px;
 }
 
-.header__trapezoid-left {
+.block1__trapezoid-left {
     position: absolute;
 	border-left: 0px solid transparent;
 	height: 0;
@@ -43,7 +55,7 @@ h1 {
     border-bottom: 31px solid white;
 }
 
-.header__trapezoid-right {
+.block1__trapezoid-right {
     position: absolute;
 	border-right: 0px solid transparent;
 	height: 0;

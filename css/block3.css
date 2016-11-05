@@ -8,6 +8,17 @@
     justify-content: center;
 }   
 
+.block3__h2 {
+    font-size: 23px;
+    width: 581px;
+    font-family: 'PT Sans', sans-serif;
+    color: #37474F;
+    position: absolute;
+    margin: 0 auto;
+    width: auto;
+    margin-top: 50px;
+}
+
 .block3-items {
     display: flex;
     align-items: center;
