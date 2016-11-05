@@ -1,10 +1,13 @@
-@import url(http://allfont.ru/allfont.css?fonts=arimo);
+@font-face {
+	    font-family: 'Arimo';
+	    src: url(../fonts/arimo.ttf);
+  }
 
 .block6 {
     height: 131px;
     background-color: #eeeeee;
     text-align: center;
-    font-family: 'Arimo', arial;
+    font-family: 'Arimo';
     font-size: 13px;
     line-height:131px;
     color: #3f4950;
