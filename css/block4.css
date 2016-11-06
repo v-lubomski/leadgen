@@ -8,15 +8,14 @@
 .block4-flex {
     display: flex;
     flex-direction: row;
-    align-items: stretch;
     flex-wrap: wrap;
-    align-content: stretch;
     width: 80%;
     margin: 10.5% auto;
 }
 
 /*Окно диалога(картинка)*/
 .block4-imgcontainer {
+    position: relative;
     width: 50%;
 }
 .block4__img {
@@ -31,6 +30,7 @@
 /*1 элемент*/
 .block4-item1 {
     width: 50%;
+    position: relative;
 }
 .block4-item1__img {
     margin-top: 5.7%;
@@ -50,17 +50,26 @@
 .block4-item2 {
     width: 50%;
     margin-top: 14.6%;
+    position: relative;
+    min-width: 250px;
 }
 .block4-item2__img {
-    margin-left: 21.2%;
+    position: relative;
+    display: inline;
+    left: 21.1%;
+    margin-top: -0.5%;
 }
 .block4-item2__txt1 {
-    margin-left: 36.9%;
-    margin-top: -10.4%;
+    display: inline;
+    position: relative;
+    top: -28px;
+    left: 26.6%;
 }
 .block4-item2__txt2 {
-    margin-left: 36.9%;
-    margin-top: 0.3%;
+    position: relative;
+    left: 26.6%;
+    top: -26px;
+    margin-left: 52px;
 }
 
 
@@ -68,17 +77,21 @@
 .block4-item3 {
     width: 50%;
     margin-top: 14.6%;
+    position: relative;
+    min-width: 250px;
 }
 .block4-item3__img {
-    margin-left: 0.25%;
+    position: relative;
+    display: inline;
+    top: -30px;
 }
 .block4-item3__txt1 {
-    margin-top: -10.4%;
-    margin-left: 16.1%;
+    position: relative;
+    display: inline-block;
 }
 .block4-item3__txt2 {
-    margin-left: 16.1%;
-    margin-top: 0.3%;
+    position: relative;
+    left: 45px;
 }
 
 
