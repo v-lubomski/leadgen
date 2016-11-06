@@ -3,87 +3,70 @@
     height: 974px;
     position: relative;
     background: linear-gradient(to bottom, #ffffff, #ededed);
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
 }
 
-.block4-elem1 {
-    position: absolute;
-    margin-top: 10.5%;
-    margin-left: 19.7%;
-    width: 70%;
+/*Окно диалога(картинка)*/
+.block4-imgcontainer {
+    width: 50%;
 }
-
-.block4-elem1__img1 {
+.block4__img {
     box-shadow: 3px 9px 20px rgba(93,93,93,0.1),
          -3px -3px 20px rgba(93,93,93,0.1);
 }
 
-.block4-elem1__img2 {
-    position: absolute;
-    margin-top: 29px;
-    margin-left: 38px;
-}
 
-.block4-elem1__txt1 {
-    position: absolute;
-    margin-left: 481px;
-    margin-top: -377px;
-    width: 320px;
+/*1 элемент*/
+.block4-item1 {
+    width: 50%;
+}
+.block4-item1__img {
     
 }
-.block4-elem1__txt2 {
-    position: absolute;
-    margin-left: 481px;
-    margin-top: -290px;
-    width: 180px;
+.block4-item1__txt1 {
+    
+}
+.block4-item1__txt2 {
+    
 }
 
-.block4-elem2 {
-    position: absolute;
-    top: 65%;
-    margin-left: 19.8%;
-    width: 70%;
-    height: 200px;
+
+/*2 элемент*/
+.block4-item2 {
+    width: 50%;
+}
+.block4-item2__img {
+    
+}
+.block4-item2__txt1 {
+    
+}
+.block4-item2__txt2 {
+    
 }
 
-.block4-elem2-item1 {
-    width: 400px;
-    display: inline-block;
-    position: absolute;
-    margin: 50px 0px 0px 0px;
-    height: 120px;
+
+/*3 элемент*/
+.block4-item3 {
+    width: 50%;
+}
+.block4-item3__img {
+    
+}
+.block4-item3__txt1 {
+    
+}
+.block4-item3__txt2 {
+    
 }
 
-.block4-elem2-item1__txt1 {
-    position: absolute;
-    margin-left: 81px;
-    margin-top: -52px;
-}
 
-.block4-elem2-item1__txt2 {
-    position: absolute;
-    margin-left: 81px;
-    margin-top: -23px
-}
-
-.block4-elem2-item2 {
-    width: 300px;
-    display: inline-block;
-    position: absolute;
-    margin: 50px 0px 0px 400px;
-    height: 150px;
-}
-
-.block4-elem2-item2__txt1 {
-    position: absolute;
-    margin-left: 81px;
-    margin-top: -53px;
-}
-
-.block4-elem2-item2__txt2 {
-    position: absolute;
-    margin-left: 81px;
-    margin-top: 32px
-}
 
 .block4-txtbig {
     font-size: 35px;
@@ -99,11 +82,14 @@
     font-size: 20px;
 }
 
+
+
 .block4__trapezoid-left {
 	position: absolute;
 	border-left: 0px solid transparent;
 	height: 0;
     bottom: 0;
+    left: 0;
     width: 46.6%;
     border-right: 43px solid transparent;
     border-bottom: 43px solid white;

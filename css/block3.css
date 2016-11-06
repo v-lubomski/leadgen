@@ -15,7 +15,7 @@
 .block3__h2 {
     font-size: 23px;
     width: 581px;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'pt sans bold';
     color: #37474F;
     position: absolute;
     margin: 0 auto;
@@ -62,4 +62,9 @@
     font-family: 'PT Sans', arial;
     font-size: 23px;
     color: #37474F;
+}
+
+.block3-item__bracket {
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
