@@ -6,6 +6,7 @@
 }
 
 .block4-flex {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -67,9 +68,9 @@
 }
 .block4-item2__txt2 {
     position: relative;
-    left: 26.6%;
-    top: -26px;
     margin-left: 52px;
+    top: -26px;
+    left: 26.6%;
 }
 
 
@@ -83,15 +84,19 @@
 .block4-item3__img {
     position: relative;
     display: inline;
-    top: -30px;
+    left: 0.3%;
+    margin-top: -0.5%;
 }
 .block4-item3__txt1 {
     position: relative;
-    display: inline-block;
+    margin-left: 30px;;
+    top: -50px;
+    left: 10%;
 }
 .block4-item3__txt2 {
     position: relative;
-    left: 45px;
+    left: 16%;
+    top: -49px;
 }
 
 
