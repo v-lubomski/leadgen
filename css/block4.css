@@ -3,13 +3,16 @@
     height: 974px;
     position: relative;
     background: linear-gradient(to bottom, #ffffff, #ededed);
-    
+}
+
+.block4-flex {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: stretch;
+    width: 80%;
+    margin: 10.5% auto;
 }
 
 /*Окно диалога(картинка)*/
@@ -17,6 +20,7 @@
     width: 50%;
 }
 .block4__img {
+    margin-left: 21.2%;
     box-shadow: 3px 9px 20px rgba(93,93,93,0.1),
          -3px -3px 20px rgba(93,93,93,0.1);
 }
@@ -27,43 +31,52 @@
     width: 50%;
 }
 .block4-item1__img {
-    
+    margin-top: 29.9px;
+    margin-left: 0.25%;
 }
 .block4-item1__txt1 {
-    
+    margin-top: -59px;
+    margin-left: 81px;
 }
 .block4-item1__txt2 {
-    
+    margin-left: 81px;
+    margin-top: 2px;
 }
 
 
 /*2 элемент*/
 .block4-item2 {
     width: 50%;
+    margin-top: 14.6%;
 }
 .block4-item2__img {
-    
+    margin-left: 21.2%;
 }
 .block4-item2__txt1 {
-    
+    margin-left: 36.9%;
+    margin-top: -10.4%;
 }
 .block4-item2__txt2 {
-    
+    margin-left: 36.9%;
+    margin-top: 2px;
 }
 
 
 /*3 элемент*/
 .block4-item3 {
     width: 50%;
+    margin-top: 14.6%;
 }
 .block4-item3__img {
-    
+    margin-left: 0.25%;
 }
 .block4-item3__txt1 {
-    
+    margin-top: -51px;
+    margin-left: 81px;
 }
 .block4-item3__txt2 {
-    
+    margin-left: 81px;
+    margin-top: 2px;
 }
 
 
