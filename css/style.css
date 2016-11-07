@@ -40,12 +40,35 @@ body {
     }
     .block2-items { 
         flex-wrap: wrap; 
-        margin-top: 20px; /* или какой там нужен */
+        margin-top: 40px;
+    }
+    .block2-item__txt {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    .block3__h2 {
+        margin-top: 20px;
     }
     .block3-items { 
         flex-wrap: wrap; 
-        margin-top: 100px; /* или какой там нужен */
-        width: 100%; 
+        margin-top: 100px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .block3-item {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .block3-item__img--center {
+        margin-top: -20px;
+        margin-bottom: -15px;
+    }
+    .block3-item__caption {
+        margin-top: 10px;
+    }
+    .block3-item__bracket {
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
     .block4-flex { 
         position: relative; 
