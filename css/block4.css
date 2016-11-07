@@ -3,6 +3,7 @@
     position: relative;
     height: 974px;
     background: linear-gradient(to bottom, #ffffff, #ededed);
+    overflow: hidden;
 }
 
 .block4-flex {
@@ -127,21 +128,21 @@
     position: absolute;
     border-left: 0px solid transparent; 
     height: 0; 
-    bottom: 0; 
-    left: 0;
-    right: 50%; 
+    bottom: 0;
+    right: 50%;
     width: 50%; 
-    border-right: 90px solid transparent; 
-    border-bottom: 90px solid white; 
+    border-right: 43px solid transparent; 
+    border-bottom: 43px solid white;  
 }
+
 .block4__trapezoid-right {
-    position: absolute;
+    left: 50%;
+    position: absolute; 
     border-right: 0px solid transparent; 
     height: 0; 
-    left: 50%; 
     right: 0;
     bottom: 0; 
     width: 50%; 
-    border-left: 90px solid transparent; 
-    border-bottom: 90px solid white; 
+    border-left: 43px solid transparent; 
+    border-bottom: 43px solid white; 
 }

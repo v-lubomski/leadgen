@@ -55,25 +55,23 @@ h1 {
 }
 
 .block1__trapezoid-left {
-    position: absolute;
-	border-left: 0px solid transparent;
-	height: 0;
-    bottom: 0;
-    width: 47.3%;
-    border-right: 36px solid transparent;
-    border-bottom: 31px solid white;
+    position: absolute; 
+border-left: 0px solid transparent; 
+height: 0; 
+bottom: 0; 
+right: 50%;
+width: 50%; 
+border-right: 36px solid transparent; 
+border-bottom: 31px solid white;  
 }
 
 .block1__trapezoid-right {
-    position: absolute;
-	border-right: 0px solid transparent;
-	height: 0;
-    margin-left: 50%;
-    right: 0;
-    bottom: 0;
-    width: 47.3%;
-	border-left: 36px solid transparent;
-    border-bottom: 31px solid white;
+position: absolute; 
+border-right: 0px solid transparent; 
+height: 0; 
+left: 50%;
+bottom: 0; 
+width: 50%; 
+border-left: 36px solid transparent; 
+border-bottom: 31px solid white; 
 }
-
-
