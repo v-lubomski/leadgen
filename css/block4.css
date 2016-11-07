@@ -1,7 +1,7 @@
 
 .block4 {
-    height: 974px;
     position: relative;
+    height: 974px;
     background: linear-gradient(to bottom, #ffffff, #ededed);
 }
 
@@ -11,7 +11,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 80%;
-    margin: 10.5% auto;
+    margin: 0 auto;
+    top: 9%;
+    margin-top: 4%;
 }
 
 /*Окно диалога(картинка)*/
@@ -121,27 +123,25 @@
     font-size: 20px;
 }
 
-
-
 .block4__trapezoid-left {
-	position: absolute;
-	border-left: 0px solid transparent;
-	height: 0;
-    bottom: 0;
+    position: absolute;
+    border-left: 0px solid transparent; 
+    height: 0; 
+    bottom: 0; 
     left: 0;
-    width: 46.6%;
-    border-right: 43px solid transparent;
-    border-bottom: 43px solid white;
+    right: 50%; 
+    width: 50%; 
+    border-right: 90px solid transparent; 
+    border-bottom: 90px solid white; 
 }
-
 .block4__trapezoid-right {
-	position: absolute;
-	border-right: 0px solid transparent;
-	height: 0;
-    margin-left: 50%;
+    position: absolute;
+    border-right: 0px solid transparent; 
+    height: 0; 
+    left: 50%; 
     right: 0;
-    bottom: 0;
-    width: 46.6%;
-	border-left: 43px solid transparent;
-    border-bottom: 43px solid white;
+    bottom: 0; 
+    width: 50%; 
+    border-left: 90px solid transparent; 
+    border-bottom: 90px solid white; 
 }
