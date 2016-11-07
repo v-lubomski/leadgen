@@ -14,6 +14,36 @@ body {
 
 @media screen and (max-width: 640px) { 
     .mobile {
-        margin: 0;
+        /* margin: 0; */ 
+        padding-left: 5%; 
+        padding-right: 5%;
+        height: auto;
+    }
+    .block1__LEADGEN { 
+    width: 100%; 
+    display: inline-block; 
+    }
+    h1 { 
+    margin: 0 auto; 
+    position: relative; 
+    width: initial; 
+    font-size: 60px; 
+    }
+    .block1__h2 { 
+    font-size: 15px; 
+    width: 100%; 
+    text-align: center; 
+    }
+    .block1 { 
+    height: 480px;
+    }
+    .block2-items { 
+    flex-wrap: wrap; 
+    margin-top: 20px; /* или какой там нужен */
+    }
+    .block3-items { 
+    flex-wrap: wrap; 
+    margin-top: 100px; /* или какой там нужен */
+    width: 100%; 
     }
 }
