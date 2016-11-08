@@ -66,6 +66,9 @@ body {
     .block3-item__caption {
         margin-top: 10px;
     }
+    .block3-item__caption2-small {
+        margin-bottom: 0px;
+    }
     .block3-item__bracket {
         margin-top: 10px;
         margin-bottom: 5px;
@@ -188,14 +191,19 @@ body {
         margin-top: 100px;
         margin-bottom: 20px;
         margin-left: 0;
-        /* margin-left: 12%; */ 
         justify-content: center; 
     }
 }
 
-@media screen and (max-width: 640px), (min-width: 534px) {
+@media screen and (max-width: 640px) {
     .block3-item--mobile {
         margin-top: 67px;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    .block3-item--mobile {
+        margin-top: 40px;
     }
 }
 
