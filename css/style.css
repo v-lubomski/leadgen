@@ -176,6 +176,12 @@ body {
         top: -50px; 
         margin-left: 50px; 
     }
+    .block4-txtsmall {
+        font-size: 14px;
+    }
+    .block4-txtbig {
+        font-size: 21px;
+    }
     .block5__h2 { 
         font-size: 23px; 
         width: 100%; 
