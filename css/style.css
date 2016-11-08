@@ -45,9 +45,11 @@ body {
     .block2-item__txt {
         margin-top: 0;
         margin-bottom: 30px;
+        font-size: 16px;
     }
     .block3__h2 {
         margin-top: 20px;
+        font-size: 20px;
     }
     .block3-items { 
         flex-wrap: wrap; 
@@ -65,9 +67,14 @@ body {
     }
     .block3-item__caption {
         margin-top: 10px;
+        font-size: 20px;
+    }
+    .block3-item__caption {
+        font-size: 20px;
     }
     .block3-item__caption2-small {
         margin-bottom: 0px;
+        font-size: 15px;
     }
     .block3-item__bracket {
         margin-top: 10px;
@@ -183,7 +190,7 @@ body {
         font-size: 21px;
     }
     .block5__h2 { 
-        font-size: 23px; 
+        font-size: 20px; 
         width: 100%; 
         left: 0;
         text-align: center;
